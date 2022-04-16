@@ -1,0 +1,22 @@
+{{>header}}
+{{#if flag}}
+<table border="1px">
+  <tr>
+      <td>Emp Id</td>
+      <td>{{data.empno}}</td>
+  </tr> 
+  <tr>
+      <td>Name</td>
+      <td>{{data.name}}</td>
+  </tr>
+  <tr>
+      <td>Salary</td>
+      <td>{{data.salary}}</td>
+  </tr>
+  <tr>
+      <td>City</td>
+      <td>{{data.address}}</td>
+  </tr> 
+</table>
+{{/if}}
+{{>footer}}
